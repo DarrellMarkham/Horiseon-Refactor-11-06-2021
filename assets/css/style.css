@@ -1,183 +1,50 @@
 * {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    box-sizing: border-box;
-    padding: 0;
     margin: 0;
-}
-
-/* Body Style*/
-body {
-    background-color: #d9dcd6;
-}
-
-/* Header Style */
-header {
-    padding: 20px;
-    background-color: #2a607c;
-}
-
-/* Header Content */
-header h1 {
-    display: inline;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    /* more on this crazy alphanumerical value in a minute! */
+    color: #39a6b2;
+    font-family: Helvetica, Arial, sans-serif;
+  }
+  
+  /* apply styles to <header> */
+  header {
+    padding: 20px 35px;
+    background-color: #39a6b2;
+  }
+  
+  header h1 {
     font-weight: bold;
-    font-size: 48px;
-    color: #ffffff;
-    margin: auto;
-}
-
-/* Header Link Color */
-header a {
+    font-size: 36px;
+    color: #fce138;
+    margin: 0;
+    display: inline;
+  }
+  header a {
     text-decoration: none;
-    color: #ffffff;
-}
-
-/* Header Nav Position*/
-header nav {
+    color: #fce138;
+  }
+  
+  header nav {
     float: right;
-    font-size: 20px;
-}
-
-/* Header Nav List */
-header nav ul {
-    list-style-type: none;
-}
-
-/* Header Nav List Elements*/
-header nav ul li {
-    display: inline-block;
-    margin: 25px;
-}
-
-/* Header Nav List Link */
-header nav ul li a {
+    margin: 7px 0;
+  }
+  
+  header nav ul li {
+    display: inline;
+  }
+  
+  header nav ul li a {
+    margin: 0 30px;
     font-weight: lighter;
-}
-
-/* Content Section */
-content {
-    width: 75%;
-    padding: 25;
-}
+    font-size: 22px;
+  }
+  
 
 /* Title Color Change */
 .seo {
     color: #d9dcd6;
-}
-
-/* Hero Graphic */
-.hero {
-    height: 800px;
-    width: 100%;
-    margin-bottom: 25px;
-    background-image: url("../images/digital-marketing-meeting.jpg");
-    background-size: cover;
-    background-position: center;
-}
-
-.float-left {
-    float: left;
-    margin-right: 25px;
-}
-
-.float-right {
-    float: right;
-    margin-left: 25px;
-}
-
-.benefits {
-    margin-right: 20px;
-    padding: 20px;
-    clear: both;
-    float: right;
-    width: 20%;
-    height: 100%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #2589bd;
-}
-
-.benefit-lead {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-lead h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-lead img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.features {
-    text-align: right
-}
-
-.feature {
-    margin-left: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #fff;
-}
-
-.feature img {
-    max-height: 200px;
-}
-
-.feature h2 {
-    margin-bottom: 20px;
-    font-size: 36
-    px;
-}
-
-.feature-set {
-    padding: 35px;
-    float: left;
-    width: 65%;  
-}
-.footer {
-    padding: 30px;
-    clear: both;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-align: center;
-}
-
-.footer h2 {
-    font-size: 20px;
-}
+}   
